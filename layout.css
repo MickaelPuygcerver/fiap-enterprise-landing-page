@@ -1,0 +1,173 @@
+
+
+html {
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    color: #526066;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    background-color: transparent;
+}
+
+b, strong {
+    font-weight: bolder;
+}
+
+img {
+    border-style: none;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+}
+
+button, input[type="text"] {
+    padding: 8px 4px;
+    border: 1px solid #cccccc;
+    width: 100%;
+}
+
+button, input[type="submit"] {
+    color: white;
+    background: #446fbf;
+    border: 1px solid;
+    padding: 10px 30px;
+}
+
+.d-block {
+    display: block !important;
+}
+
+.menu {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    background: #446fbf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menu-item, .menu-list {
+    position: relative;
+}
+
+.menu-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu-item .menu-item {
+    display: block;
+}
+
+.menu-link {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    padding: 0.5em 1em;
+}
+
+.mt-5 {
+    margin-top: 5em !important;
+}
+
+.mt-1 {
+    margin-top: 1em !important;
+}
+
+.mb-1 {
+    margin-bottom: 1em !important;
+}
+
+.box img {
+    width: 100%;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #cce1ff;
+}
+
+thead th:nth-child(1) {
+    width: 30%;
+}
+
+thead th:nth-child(2) {
+    width: 20%;
+}
+
+thead th:nth-child(3) {
+    width: 15%;
+}
+
+thead th:nth-child(4) {
+    width: 35%;
+}
+
+th, td {
+    padding: 20px;
+}
+
+h2, h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.content {
+    margin: 0 auto;
+    padding-bottom: 4em;
+}
+
+.box {
+    padding: 0.5em 10em;
+}
+
+.banner {
+    background: url('./img/banner.png') 0 0 no-repeat fixed;
+    text-align: center;
+    background-size: 100%;
+    width: 100%;
+    margin-bottom: 3em;
+    display: table;
+}
+
+.footer {
+    background: #111;
+    color: #888;
+    text-align: center;
+}
+
+.footer a {
+    color: #ddd;
+}
+
+.banner {
+    height: 500px;
+}
